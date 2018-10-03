@@ -19,7 +19,7 @@ public class MiniDuckSimulator {
         mallard.performQuack();
         mallard.performFly();
 
-        // Dynamically change behavior at runtime - benefits of polymorphism
+        // Dynamically change behavior at runtime - benefits of composition polymorphism
         mallard.setQuackBehavior(new Squeak());
         mallard.setFlyBehavior(new FlyNoWay());
         mallard.performQuack();

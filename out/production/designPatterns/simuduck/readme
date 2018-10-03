@@ -1,0 +1,5 @@
+The strategy pattern
+-Defines a family of algorithms
+-Encapsulates each one and makes them interchangeable
+
+Principle 1: Separate code that changes

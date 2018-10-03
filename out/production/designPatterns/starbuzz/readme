@@ -1,0 +1,5 @@
+Decorator pattern
+- attaches additional responsibilities to an object dynamically.
+- provides a flexible alternative to subclassing for extending functionality
+
+Principle 4: Open to extension | Closed to modification
