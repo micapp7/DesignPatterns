@@ -14,4 +14,4 @@ Abstract Factory
 - allows client code to remain the same.
 
 Benefit
-- Encapsulate object creation to keep applications loosely couped and less dependent on implementations.
+- Encapsulate object creation to keep applications loosely coupled and less dependent on implementations.
