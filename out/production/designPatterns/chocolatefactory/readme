@@ -1,0 +1,4 @@
+Singleton Pattern
+- ensures a class has only one instance, and provides a global point of access to it.
+- creates a general purpose class with its own set of data and methods.
+- as easy as accessing a global variable, but we get the benefits of lazy instantiation

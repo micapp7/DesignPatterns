@@ -16,7 +16,7 @@ public abstract class PizzaStore {
     // well-honored order system that needs to stay the same regardless of franchise.
     // final enforces that this method is not change by subclass.
     public final Pizza orderPizza(PizzaType type) {
-        Pizza pizza;
+        Pizza pizza; // abstract dependency
 
         pizza = createPizza(type); // Calls the createPizza method on the concrete subclass and returns a pizza object
 
