@@ -15,7 +15,7 @@ public class ChocolateBoiler {
     /**
      * Multithreading can break the singleton pattern by creating multiple objects
      * The synchronize keyword can be used to ensure that only a single thread can access the method at a time
-     * However, calling sychronize everytime the getInstance method is called is expensive.
+     * However, calling synchronize every time the getInstance method is called is expensive.
      * <p>
      * Therefore, use "double-check locking" to reduce the use of synchronization.
      * first check to see if an instance is created, and if not, THEN we synchronize.
